@@ -1,0 +1,21 @@
+.description {
+    width: 100%;
+    text-align: center;   
+    padding-bottom: 10rem; 
+}
+h1 {
+    font-size: 3rem;
+    color: red;
+}
+p {
+    font-size: 2rem;
+    color: blue;
+}
+.jeu {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

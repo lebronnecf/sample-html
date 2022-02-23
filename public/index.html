@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeux NM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="description">
+        <h1>Jeu du chiffre mystère</h1>
+        <p>Saisis des chiffres entre 0 et 100 et découvre quel est le chiffre mystère !</p>
+    </div>
+
+    <div class="jeu">
+        <form id="form-mystere">
+            <input name="number" type="number">
+            <input type="submit">
+            <span id="message">Essayez de deviner le chiffre mystère</span>
+        </form>
+        
+        <div name="record"></div>
+    </div>
+    
+    <div class="description">
+        <p id="consigne-alphabet"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
